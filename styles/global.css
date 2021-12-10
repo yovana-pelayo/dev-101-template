@@ -1,14 +1,14 @@
 
 :root {
-    --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
+    --primary-background: #a6e2cb;
+    --chrome-background: #74a4e3;
+    --chrome-background-opaque: #2a5e99d1;
     --secondary-background: #C9B39B;
     --text-color: #32363F;
     --accent-light: #ED8F11;
     --accent-dark: #C27A18;
     
-    --gutter: 30px;
+    --gutter: 10px;
 }
 
 body {
@@ -23,7 +23,11 @@ body {
 
 }
 
-
+img {
+    width: 50%;
+     
+    opacity: .9;
+}
 
 header {
     display: flex;
